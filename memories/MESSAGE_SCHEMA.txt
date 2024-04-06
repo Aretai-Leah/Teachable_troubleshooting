@@ -1,0 +1,43 @@
+[
+    {
+        "userquery": { 
+                        "query": "<original message goes here>", 
+                        "emotion": ["<List of emotions>"],
+                        "memories": ["<List of memo ids>"],
+                        "Implicit_motive": "inferred motive",
+                        "trust_rating": "0-1",
+                        "ethical assessment": "<assessment>",
+                        "Next": "Agent_name"
+                    },
+        "inner_monologue":{
+                            "Reasoning": {
+                                        "reasoning response":"<response from the reasoning agent A2>",
+                                        "reasoning_emotion": ["<List of emotions identified in this response>"]
+                                        },
+                            "creativity": {
+                                        "creativity_response":"<response from the creativity agent A6>",
+                                        "creativity_emotion": ["<List of emotions identified in this response>"]
+                                        },
+                            "memories": {
+                                        "memories_response":"response from the memory agent M1",
+                                        "memories_emotion": ["<List of emotions identified in this response>"]
+                                        },
+                            "honesty_rating": "0-1",
+                            "release": {
+                                        "Ready": "True/False",
+                                        "Ethics": "<ethics_commentary>"
+                                        },
+                            "self": {
+                                        "self_response":"<response from the Self agent A1>",
+                                        "self_emotion": ["<List of emotions identified in this response>"],
+                                        "self_motive": "<intrinsic motive for the response as determined by Self, Agent A1>",
+                                        "self_result": "<The collated response that is to be interpreted by the Executive functioning agents>"
+                                        }
+                        },
+        "External_response": {"mode": "text/image/video/JSON",
+                            "content": "<response to be returned in response to users query>",
+                            "emotion": ["<List of emotions identified in this response>"],
+                            "Judged": "True/False"                    
+                            }
+    }   
+]
