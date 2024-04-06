@@ -1,0 +1,41 @@
+[
+    {
+        "model": "gpt-4-turbo-preview",
+        "api_key": "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",
+        "response_format": { "type": "text" }
+        },
+
+    {
+        "model": "gpt-3.5-turbo-16k",
+        "api_key": "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"
+        },
+        
+    {
+        "model": "gpt-4-0125-preview",
+        "api_key": "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",
+        "response_format": { "type": "json_object" }
+        },
+
+    {
+        
+        "api_key": "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",
+        "base_url": "https://api.anthropic.com/v1/",
+        "model": "claude-3-opus-20240229",
+        "max_tokens": 1024
+        },
+
+
+    {
+        "trello_api_key" : "7f5615754d0c94ca8a28bddec79add89",
+        "trello_secret": "dac3da49e0d11cfc1e9432337e6b34e1197352297a82c03ad3c17364f46707bd",
+        "trello_api_token" : "ATTA0d32dd399a681f2b2767d870ab506dedca79fec3cf768e1e3ebec49f0b724fe4F3FC9AD4",
+        "trello_board_id": "65b473a5fbae5a5c2f04d6b5",
+        "trello_immediate_goals_list_id" : "65b473a629c1c7a7997498e0",
+        "trello_doing_list_id" : "65b473a6c91e14de3cfe848e",
+        "trello_done_list_id" : "65b473a6024d1557dbd3513b",
+        "trello_longterm_goals_list_id" : "65b47514965310d8e18b41f3",
+        "trello_autonomic_imperatives_list_id" : "65b47523825ad5409c97b962"
+    }
+
+
+]
